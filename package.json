@@ -1,0 +1,50 @@
+{
+  "name": "rtl-training-webpack-babel",
+  "version": "1.0.0",
+  "description": "The initial setup to get started with react testing library using webpack and babel, not using create-react-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "jest --coverage --config=jest.config.js --watchAll=false"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "library",
+    "setup"
+  ],
+  "author": "sayedminhal@yahoo.co.in <sayedminhal@yahoo.co.in>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.0",
+    "babel-jest": "^28.1.1",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "enzyme": "^3.11.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.1",
+    "jest-css-modules-transform": "^4.4.2",
+    "jest-environment-jsdom": "^28.1.1",
+    "jest-extended": "^2.0.0",
+    "react-test-renderer": "^18.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
